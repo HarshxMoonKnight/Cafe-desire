@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green-Wood Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero" id="home">
+        <nav class="navbar">
+          <a class="brand" href="#home">
+            <span class="brand-mark" data-site-field="short-name">GW</span>
+            <span class="brand-text" data-site-field="business-name">Green-Wood Cafe</span>
+          </a>
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-links"
+            aria-label="Open navigation menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="nav-links" id="nav-links">
+            <a href="#story">Story</a>
+            <a href="#menu">Menu</a>
+            <a href="#space">Ambience</a>
+            <a href="#visit">Visit</a>
+          </div>
+        </nav>
+
+        <div class="hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">Slow mornings, warm pours, soft light</p>
+            <h2>Where Moments Brew into Memories</h2>
+            <p class="hero-text">
+              <span data-site-field="business-name">Green-Wood Cafe</span> blends handcrafted brews, rustic textures, and sunlit
+              corners into a calm everyday escape.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#menu">Explore Menu</a>
+              <a class="button button-secondary" href="#visit">Book a Table</a>
+            </div>
+            <div class="hero-trust-strip">
+              <span><i class="fa-solid fa-star"></i> 4.8 customer rating</span>
+              <span><i class="fa-solid fa-bolt"></i> Fast WhatsApp ordering</span>
+              <span><i class="fa-solid fa-location-dot"></i> Easy pickup and dine-in</span>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <p class="card-label">Today's Mood</p>
+            <h2>Honey cinnamon latte with almond cake</h2>
+            <p>
+              Creamy, fragrant, and served with a golden finish inspired by late
+              afternoon sunlight.
+            </p>
+            <div class="hero-card-meta">
+              <span>Signature blend</span>
+              <span>Freshly baked</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="story section" id="story">
+          <div class="section-heading">
+            <p class="eyebrow">Our Story</p>
+            <h2>
+              Earthy tones, thoughtful brewing, and a room that invites you to
+              linger.
+            </h2>
+          </div>
+          <div class="story-grid">
+            <article class="story-panel">
+              <p>
+                Designed around organic calm, our cafe pairs botanical greens,
+                oat cream walls, and caramel wood notes to create a quietly
+                elegant retreat.
+              </p>
+            </article>
+            <article class="story-panel accent">
+              <h3>What makes it special</h3>
+              <ul>
+                <li>Single-origin espresso and hand-poured specials</li>
+                <li>Fresh pastries plated with a boutique dessert feel</li>
+                <li>Soft jazz mornings and candlelit evening service</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="trust section" id="trust">
+          <div class="section-heading inline-heading">
+            <div>
+              <p class="eyebrow">Why Guests Return</p>
+              <h2>Built to feel trustworthy before the first sip even arrives.</h2>
+            </div>
+            <p class="section-note">
+              Clear contact details, quick support, and visible social proof help customers order with confidence.
+            </p>
+          </div>
+
+          <div class="trust-grid">
+            <article class="trust-card trust-card-highlight">
+              <p class="card-label">Quick Contact</p>
+              <h3>Order, ask, or reserve in minutes.</h3>
+              <p>
+                Reach the cafe directly for same-day orders, table bookings, or delivery questions.
+              </p>
+              <div class="trust-actions">
+                <a class="button button-primary trust-whatsapp-link" href="#" target="_blank" rel="noreferrer">
+                  WhatsApp Now
+                </a>
+                <a class="button button-secondary" data-site-field="phone-link" href="tel:+919876543210">
+                  Call Cafe
+                </a>
+              </div>
+            </article>
+
+            <article class="trust-card">
+              <p class="card-label">Guest Favorite</p>
+              <h3>"The kind of cafe you end up recommending the same day."</h3>
+              <p>
+                Smooth coffee, calm interiors, and genuinely warm service keep regulars coming back.
+              </p>
+              <strong>Priya S., weekend brunch guest</strong>
+            </article>
+
+            <article class="trust-card">
+              <p class="card-label">Fast Pickup</p>
+              <h3>Designed for quick ordering without phone-call confusion.</h3>
+              <p>
+                Customers can browse the menu, place the order, and confirm details on WhatsApp in one flow.
+              </p>
+              <strong>Most orders confirmed in just a few taps</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="menu section" id="menu">
+          <div class="section-heading inline-heading">
+            <div>
+              <p class="eyebrow">Signature Menu</p>
+              <h2>Curated for comfort, crafted for the senses.</h2>
+            </div>
+            <p class="section-note">
+              Seasonal ingredients. Slow-made drinks. Beautiful plating.
+            </p>
+          </div>
+
+          <div class="menu-grid featured-menu-grid"></div>
+
+          <div class="menu-action">
+            <button class="button menu-button view-full-menu-btn" type="button">
+              View Full Menu
+            </button>
+          </div>
+
+          <div class="full-menu-panel" hidden>
+            <div class="section-heading inline-heading full-menu-heading">
+              <div>
+                <p class="eyebrow">Full Menu</p>
+                <h2 class="full-menu-title">Cafe favorites for every kind of craving.</h2>
+              </div>
+              <p class="section-note full-menu-note">
+                Start with our handpicked showcase, then switch categories for more.
+              </p>
+            </div>
+
+            <div class="menu-filter-bar" role="tablist" aria-label="Menu categories"></div>
+
+            <div class="menu-grid expanded-menu-grid"></div>
+
+            <div class="menu-action">
+              <button class="button menu-button show-less-menu-btn" type="button">
+                Show Less
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="space section" id="space">
+          <div class="section-heading">
+            <p class="eyebrow">Ambience</p>
+            <h2>
+              A glimpse into our warm, inviting atmosphere where every corner tells a story
+            </h2>
+          </div>
+
+          <div class="space-grid">
+            <article class="space-card">
+              <div class="space-image">
+                <img
+                  class="space-photo"
+                  src="https://images.unsplash.com/photo-1665735628611-9dd3fb6b52cb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRpbmUlMjBpbnxlbnwwfHwwfHx8MA%3D%3D"
+                  alt="Sunlit cafe seating near a window bar"
+                  loading="lazy"
+                />
+                <span class="space-fallback-label">Window Bar</span>
+              </div>
+              <div class="space-content">
+                <p class="card-label">Window Bar</p>
+                <h3>Sun-washed seating for journaling and quiet coffee dates.</h3>
+              </div>
+            </article>
+            <article class="space-card">
+              <div class="space-image">
+                <img
+                  class="space-photo"
+                  src="https://images.unsplash.com/photo-1676622509316-6f4d7b0ad096?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Cozy private nook seating inside the cafe"
+                  loading="lazy"
+                />
+                <span class="space-fallback-label">Private Nook</span>
+              </div>
+              <div class="space-content">
+                <p class="card-label">Private Nook</p>
+                <h3>Muted textures and plush chairs for slow conversations.</h3>
+              </div>
+            </article>
+            <article class="space-card">
+              <div class="space-image">
+                <img
+                  class="space-photo"
+                  src="https://images.unsplash.com/photo-1613453030956-2c433b6b5aaf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGluZSUyMGlufGVufDB8fDB8fHww"
+                  alt="Warm evening cafe table setting with food"
+                  loading="lazy"
+                />
+                <span class="space-fallback-label">Evening Glow</span>
+              </div>
+              <div class="space-content">
+                <p class="card-label">Evening Glow</p>
+                <h3>Warm table lamps, candle accents, and dessert-hour calm.</h3>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="visit section" id="visit">
+          <div class="visit-layout">
+            <div class="visit-story">
+              <p class="eyebrow">Visit & Hours</p>
+              <h2>A warm little sanctuary where coffee and conversation unfold slowly.</h2>
+              <p class="visit-text">
+                Founded with a love for quiet corners and beautifully brewed coffee,
+                <span data-site-field="business-name">Green-Wood Cafe</span> was imagined as a place where soft mornings, golden
+                evenings, and meaningful pauses naturally belong.
+              </p>
+              <p class="visit-text">
+                We roast in small batches, choose ingredients with care, and shape
+                every plate and pour to feel thoughtful, comforting, and memorable.
+              </p>
+              <p class="visit-text">
+                More than a cafe, it is a calm gathering place for work sessions,
+                date afternoons, and unhurried time with your favorite people.
+              </p>
+
+              <div class="visit-highlights">
+                <article class="highlight-item">
+                  <div class="highlight-icon">
+                    <i class="fa-solid fa-mug-hot"></i>
+                  </div>
+                  <div>
+                    <h3>Premium Beans</h3>
+                    <p>Ethically sourced and roasted for a smooth, layered cup.</p>
+                  </div>
+                </article>
+                <article class="highlight-item">
+                  <div class="highlight-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <div>
+                    <h3>Made with Love</h3>
+                    <p>Every drink and dessert is crafted with gentle detail.</p>
+                  </div>
+                </article>
+                <article class="highlight-item">
+                  <div class="highlight-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <div>
+                    <h3>Fresh on Social</h3>
+                    <p>See new plates, warm interiors, and seasonal specials before you visit.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="visit-cards">
+              <article class="info-card">
+                <div class="info-card-head">
+                  <div class="info-icon">
+                    <i class="fa-regular fa-clock"></i>
+                  </div>
+                  <h3>Opening Hours</h3>
+                </div>
+                <div class="hours-list">
+                  <div><span>Monday - Friday</span><strong>7:00 AM - 8:00 PM</strong></div>
+                  <div><span>Saturday</span><strong>8:00 AM - 9:00 PM</strong></div>
+                  <div><span>Sunday</span><strong>8:00 AM - 7:00 PM</strong></div>
+                </div>
+              </article>
+
+              <article class="info-card">
+                <div class="info-card-head">
+                  <div class="info-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <h3>Visit Us</h3>
+                </div>
+                <div class="location-list">
+                  <p data-site-field="business-name">Green-Wood Cafe</p>
+                  <p data-site-field="address-line-1">Plot No. 2, Pocket-6, Sector-A/10</p>
+                  <p data-site-field="address-line-2">Sector A10, Narela, Delhi, 110040</p>
+                  <a href="tel:+919876543210" data-site-field="phone-link">+91 98765 43210</a>
+                  <a href="mailto:hello@greenwoodcafe.com" data-site-field="email-link">hello@greenwoodcafe.com</a>
+                </div>
+              </article>
+
+              <article class="info-card map-card">
+                <div class="info-card-head">
+                  <div class="info-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <h3>Find Us</h3>
+                </div>
+                <div class="map-embed">
+                  <iframe
+                    src="https://www.google.com/maps?q=Plot%20No.%202%2C%20Pocket-6%2C%20Sector-A%2F10%2C%20Sector%20A10%2C%20Narela%2C%20Delhi%2C%20110040&z=15&output=embed"
+                    data-site-field="map-embed"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </article>
+
+              <article class="info-card social-proof-card">
+                <div class="info-card-head">
+                  <div class="info-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <h3>Follow the Vibe</h3>
+                </div>
+                <p class="social-proof-copy">
+                  Browse new menu drops, signature drinks, and cozy corners before you step in.
+                </p>
+                <div class="social-proof-links">
+                  <a data-site-field="instagram-link" href="#visit" target="_blank" rel="noreferrer">
+                    Instagram
+                  </a>
+                  <a data-site-field="facebook-link" href="#visit" target="_blank" rel="noreferrer">
+                    Facebook
+                  </a>
+                  <a data-site-field="x-link" href="#visit" target="_blank" rel="noreferrer">
+                    X
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo" data-site-field="business-name">Green-Wood Cafe</div>
+            <p data-site-field="footer-tagline">Your daily dose of comfort, one cup at a time.</p>
+            <div class="social-row">
+              <a data-site-field="instagram-link" href="#visit" aria-label="Instagram" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
+              <a data-site-field="facebook-link" href="#visit" aria-label="Facebook" target="_blank" rel="noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+              <a data-site-field="x-link" href="#visit" aria-label="Twitter" target="_blank" rel="noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+
+          <div>
+            <h3>Quick Links</h3>
+            <div class="footer-links">
+              <a href="#menu">Menu</a>
+              <a href="#space">Gallery</a>
+              <a href="#story">About Us</a>
+              <a href="#visit">Visit</a>
+            </div>
+          </div>
+
+          <div>
+            <h3>Contact</h3>
+            <div class="footer-links footer-contact">
+              <span data-site-field="address-line-1">Plot No. 2, Pocket-6, Sector-A/10</span>
+              <span data-site-field="address-line-2">Sector A10, Narela, Delhi, 110040</span>
+              <a href="tel:+919876543210" data-site-field="phone-link">+91 98765 43210</a>
+              <a href="mailto:hello@greenwoodcafe.com" data-site-field="email-link">hello@greenwoodcafe.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p data-site-field="copyright">&copy; 2026 Green-Wood Cafe. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <button class="cart-toggle" type="button" aria-label="Open cart">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <span>Cart</span>
+      <strong class="cart-count">0</strong>
+    </button>
+
+    <aside class="cart-drawer" aria-hidden="true">
+      <div class="cart-header">
+        <div>
+          <p class="eyebrow">Quick Order</p>
+          <h2>Your Cart</h2>
+        </div>
+        <button class="cart-close" type="button" aria-label="Close cart">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <p class="field-label cart-section-label">Items in Cart</p>
+      <div class="cart-items">
+        <p class="cart-empty">Your cart is empty. Add something delicious from the menu.</p>
+      </div>
+
+        <div class="cart-summary">
+          <div class="cart-total-row">
+            <span>Total</span>
+            <strong class="cart-total">INR 0</strong>
+          </div>
+          <p class="delivery-pending-badge" hidden>
+            Delivery charge will be confirmed on WhatsApp
+          </p>
+
+          <div class="checkout-fields">
+          <p class="field-label">Order Type</p>
+          <div class="order-mode" role="radiogroup" aria-label="Order type">
+            <label class="order-mode-option">
+              <input type="radio" name="order-mode" value="Pickup" checked />
+              <span>Pickup</span>
+            </label>
+            <label class="order-mode-option">
+              <input type="radio" name="order-mode" value="Dine-in" />
+              <span>Dine-in</span>
+            </label>
+            <label class="order-mode-option">
+              <input type="radio" name="order-mode" value="Delivery" />
+              <span>Delivery</span>
+            </label>
+          </div>
+          <p class="field-label">Payment Method</p>
+          <div class="order-mode payment-mode" role="radiogroup" aria-label="Payment method">
+            <label class="order-mode-option">
+              <input type="radio" name="payment-method" value="Cash" checked />
+              <span>Cash</span>
+            </label>
+            <label class="order-mode-option">
+              <input type="radio" name="payment-method" value="UPI" />
+              <span>UPI</span>
+            </label>
+            <label class="order-mode-option">
+              <input type="radio" name="payment-method" value="Card" />
+              <span>Card</span>
+            </label>
+          </div>
+          <input  class="checkout-name" type="text" placeholder="Your name" />
+          <input  class="checkout-phone" type="tel" placeholder="Phone number" />
+          <textarea
+            class="delivery-address"
+            rows="3"
+            placeholder="Delivery address"
+            hidden
+          ></textarea>
+          <textarea class="checkout-notes" rows="3" placeholder="Notes or pickup requests"></textarea>
+        </div>
+
+        <p class="delivery-note"></p>
+
+        <button class="button checkout-button" type="button">
+          Order on WhatsApp
+        </button>
+      </div>
+    </aside>
+
+    <div class="cart-backdrop"></div>
+    <div class="cart-toast" aria-live="polite" aria-atomic="true"></div>
+
+
+    <script src="business-config.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
