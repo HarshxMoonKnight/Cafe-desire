@@ -1,0 +1,32 @@
+<svg width="960" height="320" viewBox="0 0 960 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cdGold" x1="94" y1="56" x2="226" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7B089"/>
+      <stop offset="1" stop-color="#A86E43"/>
+    </linearGradient>
+    <linearGradient id="cdForest" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6C7A5A"/>
+      <stop offset="1" stop-color="#425039"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="320" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#44503B" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="28" y="28" width="224" height="224" rx="56" fill="#FFFDF5"/>
+    <rect x="34" y="34" width="212" height="212" rx="50" stroke="#E8DEC2" stroke-width="2"/>
+    <path d="M117 83C87.2 83 64 106.5 64 138C64 169.5 87.2 193 117 193H155V169H118C100.6 169 87 155.1 87 138C87 120.9 100.6 107 118 107H169V83H117Z" fill="url(#cdForest)"/>
+    <path d="M172 100H117V123H169C185.6 123 198 135.9 198 151.8C198 167.8 185.6 180 169 180H143V139H120V204H172C200.9 204 222 181.8 222 151.8C222 121.8 200.9 100 172 100Z" fill="url(#cdGold)"/>
+    <path d="M121 229C132.2 215.6 149.6 208 168 208C186.4 208 203.7 215.6 215 229" stroke="#B9855A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M131 66C143.9 75.5 145.1 89.8 136 102" stroke="#6C7A5A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M167 56C180.3 65.7 181 81.9 171 94" stroke="#B9855A" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(296 78)">
+    <text x="0" y="66" fill="#44503B" font-family="'Cormorant Garamond', Georgia, serif" font-size="74" font-weight="700" letter-spacing="1.4">Cafe Desire</text>
+    <text x="2" y="108" fill="#B9855A" font-family="'DM Sans', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="6">SLOW BREWED MOMENTS</text>
+    <path d="M0 142H456" stroke="#D7B089" stroke-width="2" stroke-linecap="round"/>
+    <text x="0" y="188" fill="#6C7A5A" font-family="'Cormorant Garamond', Georgia, serif" font-size="30" font-style="italic">warm pours, soft light, quiet corners</text>
+  </g>
+</svg>

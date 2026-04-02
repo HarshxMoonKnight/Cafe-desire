@@ -1,0 +1,22 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="markGold" x1="143" y1="106" x2="364" y2="387" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7B089"/>
+      <stop offset="1" stop-color="#A86E43"/>
+    </linearGradient>
+    <linearGradient id="markForest" x1="124" y1="124" x2="360" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C7A5A"/>
+      <stop offset="1" stop-color="#425039"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="28" y="28" width="456" height="456" rx="132" fill="#FFFDF5"/>
+  <rect x="34" y="34" width="444" height="444" rx="126" stroke="#E8DEC2" stroke-width="4"/>
+
+  <path d="M220 138C164.9 138 122 181.5 122 240C122 298.5 164.9 342 220 342H289V298H223C190.9 298 166 272.4 166 240C166 207.6 190.9 182 223 182H315V138H220Z" fill="url(#markForest)"/>
+  <path d="M320 174H219V217H314C344.7 217 368 241.2 368 271C368 300.8 344.7 325 314 325H266V249H223V369H320C373.3 369 412 326.3 412 271C412 215.7 373.3 174 320 174Z" fill="url(#markGold)"/>
+
+  <path d="M228 414C248.8 388.9 281.2 374 315.4 374C349.6 374 381.7 388.9 402 414" stroke="#B9855A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M236 103C259.2 120.6 261.3 146.2 244 167" stroke="#6C7A5A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M302 85C326.1 102.7 327.2 131.7 309 154" stroke="#B9855A" stroke-width="14" stroke-linecap="round"/>
+</svg>
